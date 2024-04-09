@@ -1,0 +1,13 @@
+# Start simulation mode with your testbench
+vsim tb
+# Record all signals from all hierarchies
+log * -r
+# Run simulation.
+force key 1101
+run 10 ns
+force key 1000
+run 5 ns
+force key 0111
+run 15 ns
+# To exit simulation mode
+# quit -sim
