@@ -1,0 +1,3 @@
+we have chosen to change the implemetation of the following ALU operation:
+1101 – Rotate 1-bit left of B
+we change the calculation to be Rotate 1-bit left of A (instead of B)
